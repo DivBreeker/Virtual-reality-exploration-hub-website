@@ -1,50 +1,25 @@
-#section1 {
-    background-color: red;
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-#section2 {
-    background-color: blue;
-}
-#section3 {
-    background-color: green;
-}
-.space {
-    margin: 20px;
-    float: left;
-    border: 5px blueviolet solid;
-    border-radius: 100%;
-}
-.size {
-    width: 100px;
-    height: 100px;
-}
-p {
-    clear: both;
-    font-family: "Ruslan Display", sans-serif;
-    font-size: 50px;
-    font-weight: 300;
-}
-a {
-    text-decoration: none;
-    color: brown;
-}
-a:hover {
-    text-decoration: underline blue;
-    color: blanchedalmond;
-}
-a:visited {
-    color: green;
-}
-h6 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-}
-.div {
-    width: 400px;
-    margin: 50px;
+.Hero-section {
+    background: url(Resources/Background\(Home\)\ up.png);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
     padding: 20px;
-    background-color: beige;
+    color: white;
 }
-.right {
-    text-align: right;
-    background-color: blue;
+.Logo {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+.nav-bar {
+    flex: 1;
+    text-align: center;
 }
